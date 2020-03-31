@@ -15,11 +15,7 @@ require 'pry'
   # }
   
 def remove_strawberry(contacts)
-  contacts.each do |person, data|
-    data.each do |attribute, value|
-      if attribute == favorite_ice_cream_flavors 
-        favorite_ice_cream_flavors.unshift() 
-        return favorite_ice_cream_flavors
+  
       end 
     end 
   end 
